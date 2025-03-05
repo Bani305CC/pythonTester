@@ -49,7 +49,7 @@ st.title("Python Function Tester")
 st.write("### Write your function below:")
 user_code = st.text_area(
     "Function Code",
-    value="def student_function(x):\n\nreturn result",
+    value="def student_function(x):\n\n return result",
     height=200
 )
 
