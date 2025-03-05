@@ -55,8 +55,7 @@ user_code = st.text_area(
 
 # Default test cases
 if "test_cases" not in st.session_state:
-    st.session_state.test_cases = [{"input": "3", "expected_output": "9"},
-                                   {"input": "4", "expected_output": "16"},
+    st.session_state.test_cases = [{"input": "4", "expected_output": "16"},
                                    {"input": "1", "expected_output": "1"},
                                    {"input": "-3", "expected_output": "9"}]
 
